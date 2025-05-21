@@ -41,4 +41,15 @@ p > a {
   border: var(--border-width) solid black;
   color: var(--main-color);
   font-size: 2rem;
+}
+
+@media screen and (min-width: 1000px) {
+  :root {
+    --main-color: antiquewhite;
+  }
+}
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --main-color: #222222;
+  }
 }/*# sourceMappingURL=style.css.map */
