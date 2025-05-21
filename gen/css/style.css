@@ -1,0 +1,44 @@
+:root {
+  --main-color: #ffaaaa;
+  --border-width: 3px;
+}
+
+body {
+  background-color: var(--main-color);
+  margin: 10px;
+  padding: 10px;
+  border: 10px solid black;
+}
+
+p {
+  background-color: black;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  border: 10px solid black;
+}
+p > a {
+  background-color: blue;
+  color: azure;
+  margin: 10px;
+  padding: 10px;
+  border: 10px solid black;
+}
+
+.flex-parent {
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lime;
+  border: calc(2 * var(--border-width)) solid black;
+}
+
+.flex-child {
+  padding: 1em;
+  background-color: magenta;
+  border: var(--border-width) solid black;
+  color: var(--main-color);
+  font-size: 2rem;
+}/*# sourceMappingURL=style.css.map */
